@@ -1,4 +1,4 @@
-.section .text
+.section .text.add
 
 .global add
 .type add, @function

@@ -1,5 +1,5 @@
 /**
- * @file esp32s2-ulp-riscv-assembly-test.c
+ * @file esp32s2-ulp-riscv-assembly.c
  */
 
 #include "freertos/FreeRTOS.h"
@@ -10,7 +10,7 @@
 
 #include "ulp_main.h"
 
-static const char *TAG = "esp32s2-ulp-riscv-assembly-test";
+static const char *TAG = "esp32s2-ulp-riscv-assembly";
 
 extern const uint8_t bin_start[] asm("_binary_ulp_main_bin_start");
 extern const uint8_t bin_end[] asm("_binary_ulp_main_bin_end");

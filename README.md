@@ -1,7 +1,7 @@
-# esp32s2-ulp-riscv-assembly-test
+# esp32s2-ulp-riscv-assembly
 
 This is an ESP-IDF example application that calls an assembly function
-from C on the [esp32-s2 ULP-RISC-V coprocessor][1].
+from C on the [ESP32-S2 ULP-RISC-V coprocessor][1].
 
 This code relates to a [help request I posted on the esp32.com forum][2].
 
@@ -19,7 +19,7 @@ In the `Component config` > `ESP32S2-specific` menu check:
 
 	$ idf.py build flash monitor
 	...
-	I (2262) esp32s2-ulp-riscv-assembly-test: results: 3, 3
+	I (2262) esp32s2-ulp-riscv-assembly: results: 3, 3
 
 
 [1]: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/api-guides/ulp-risc-v.html
